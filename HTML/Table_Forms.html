@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_Form</title>
+</head>
+<body>
+    <table>
+        <caption>Students Record</caption>
+        <tr>
+            <th>Name</th>
+            <th style="width: 200px;">Branch</th>
+            <th>University Roll</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>Rahul Kumar</td>
+            <td>Information Technology</td>
+            <td>10900220082</td>
+            <td>Physics</td>
+        </tr>
+        <tr>
+            <td>Suruchi Kumari</td>
+            <td>Information Technology</td>
+            <td>10900221193</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>Vijay Kumar</td>
+            <td>Computer Science</td>
+            <td>10900220070</td>
+            <td>English</td>
+        </tr>
+    </table>
+    <br> <hr> <br>
+    <h3>HTML Forms</h3>
+    <form>
+        <label for="fname">First Name</label> <br>
+        <input type="text" name="fname" id="fname"> <br>
+        <label for="lname">Last Name</label> <br>
+        <input type="text" name="lname" id="lname"> <br>
+        <label for="stream">Stream</label><br>
+        <input type="radio" id="CSE" value="CSE">
+        <label for="CSE">CSE</label><br>
+        <input type="radio" id="IT" value="IT">
+        <label for="IT">IT</label><br>
+        <input type="radio" id="ECE" value="ECE">
+        <label for="ECE">ECE</label><br>
+        <label for="skills">Skills</label> <br>
+        <input type="checkbox" id="C">
+        <label for="C">C</label> <br>
+        <input type="checkbox" id="C++">
+        <label for="C++">C++</label> <br>
+        <input type="checkbox" id="Python">
+        <label for="python">Python</label> <br>
+        <input type="submit" id="submit">
+        <input type="reset" id="reset">
+    </form>
+    <br> <hr><br>
+    <p>"select" elements defines a drop-down list</p>
+    <br>
+    <label for="Cars">Choose a car:</label>
+    <select name="car" id="car">
+        <option value="volvo">Volvo</option>
+        <option value="BMW">BMW</option>
+        <option value="Audi">Audi</option>
+        <option value="Thar">Thar</option>
+    </select>
+
+    <p>textarea elements defines the multi-line input field</p>
+    <textarea name="address" id="address" cols="30" rows="10" placeholder="Address batao"></textarea>
+    <br><br>
+    <button type="button" onclick="alert('Hello dear!')">Click Me!</button>
+</body>
+</html>
