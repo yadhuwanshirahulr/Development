@@ -1,0 +1,36 @@
+*{
+    color: white;
+}
+body{
+    background-color: lightblue;
+    opacity: 1;
+    background-image: url("pic1.avif");
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+h1,h2,h3,h4,h5{
+    background-color: dodgerblue;
+    text-align: center;
+}
+.p1{
+    color: tomato;
+}
+.p2{
+    background-color: slateblue;
+}
+.p3{
+    border: 2px solid violet;
+    border-width: 2px;
+}
+.p4{
+    border: 0px inset violet;
+    border-bottom-style: dotted;
+    border-width: 2px;
+}
+.p5{
+    margin: 20px;
+}
+.p6{
+    border: 5px solid red;
+    padding: 5px;
+}
